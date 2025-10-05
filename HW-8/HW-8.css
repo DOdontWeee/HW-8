@@ -1,0 +1,24 @@
+/* h3 з текстом "Пофарбуйте мене..." */
+.text-box h3:first-of-type {
+  color: pink;
+}
+
+/* p з id */
+#greycol {
+  color: grey;
+}
+
+/* p всередині div */
+.text-box div > p {
+  color: red;
+}
+
+/* p за порядком (3-й серед усіх <p>) */
+.text-box p:nth-of-type(3) {
+  color: green;
+}
+
+/* p з класом */
+.text-box p.yellow {
+  color: yellow;
+}
