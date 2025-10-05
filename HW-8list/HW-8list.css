@@ -1,0 +1,20 @@
+/* Кожному дню різний колір */
+.monday { background: red; }    
+.tuesday { background: blue; } 
+.wednesday { background: green; } 
+.thursday { background: yellow; } 
+.friday { background: purple; }  
+
+
+li:hover { background: brown; }  
+li:active { color: red; }                       
+li:first-child:hover { font: bold; }    
+a:visited { color: purple; }                     
+input:focus { border: 2px solid blue; }        
+
+
+li:first-child { color: darkblue; }   
+li:last-child { color: rgb(167, 170, 81); }    
+li:nth-child(2) { font-style: italic; } 
+li:nth-child(odd) { background: lavender; }  
+li:nth-child(even) { background: lightyellow; } 
